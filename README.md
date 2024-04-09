@@ -40,3 +40,6 @@ except pd.errors.ParserError:
 sentimental_and_similarity(amazon_dataframe["reviews.text"].sample(n=5))
 
 print(f"Dataframe Columns: {amazon_dataframe.shape[1]} Rows: {amazon_dataframe.shape[0]}")
+```
+## Credits
+Coded by Cibele Duarte for HyperionDev's Data Science Bootcamp - 2023/2024
